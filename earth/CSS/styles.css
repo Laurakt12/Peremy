@@ -1,0 +1,49 @@
+body {
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+
+/*disable scrolling horizontally*/
+}
+h1{
+  color: white;
+}
+/* Header/Logo Title */
+.header {
+  padding: 60px;
+  opacity: 100;
+}
+.Title {
+  text-align: center; /*margin top was added to move heading further down from top of page */
+  margin-top: 95px;
+  font-size: 100px;
+  font-family: 'Antic Slab'; 'helvetica';
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/*OCEAN section*/
+.col-md-8 {
+float: left;
+margin: auto;
+margin-top: 25px;
+  width: 49%;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.8);
+  font-size: 16px;
+  font-family: 'Antic Slab'; 'helvetica';
+  color: white;
+  text-align: center;
+}
+/*Insect section*/
+.col-md-9 {
+  float: right;
+  margin: auto;
+  margin-top:10px;
+  Width: 49%;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.8);
+  font-size: 16px;
+  font-family: 'Antic Slab'; 'helvetica';
+  color: white;
+text-align: center;
+}
